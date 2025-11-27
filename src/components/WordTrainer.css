@@ -1,0 +1,124 @@
+.word-trainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  background: #2d3748;
+}
+
+.header {
+  text-align: center;
+  color: #e2e8f0;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.word-card {
+  background: #4a5568;
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.word-section,
+.translation-section {
+  margin-bottom: 30px;
+}
+
+.word-section h2,
+.translation-section h2 {
+  font-size: 1.2rem;
+  color: #cbd5e0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.word-display {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  margin: 20px 0;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.translation-display {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 20px 0;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.translation-display.show {
+  color: #68d391;
+  font-weight: bold;
+}
+
+.translation-display.hidden {
+  color: #a0aec0;
+}
+
+.progress {
+  text-align: center;
+  color: #a0aec0;
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 15px 40px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-primary {
+  background: #48bb78;
+  color: white;
+}
+
+.btn-secondary {
+  background: #4299e1;
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  color: #a0aec0;
+  margin-top: 30px;
+}
+
+.loading {
+  text-align: center;
+  color: #e2e8f0;
+  font-size: 1.5rem;
+  margin-top: 50px;
+}
